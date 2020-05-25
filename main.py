@@ -13,6 +13,6 @@ def get_liveness():
     return "OK"
 
 
-@app.get("/healthcheck")
+@app.get("/readiness")
 def get_healthcheck():
     return "OK"
