@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sidecar_proxy"
+version = "0.1.0"
+description = ""
+authors = ["Mike Allman <mike@allman.me.uk>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.55.1"
+gunicorn = "^20.0.4"
+uvicorn = "^0.11.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
