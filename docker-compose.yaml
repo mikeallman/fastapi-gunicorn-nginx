@@ -1,0 +1,10 @@
+version: "2.0"
+services:
+  app:
+    image: sidecar-app:latest
+
+  nginx:
+    image: sidecar-nginx:latest
+    ports:
+      - "80:80"
+      - "81:81"
